@@ -1,3 +1,6 @@
+body{
+  padding: 0 5px;
+}
 /* typo */
 .title{
   font-size: 30px;
@@ -6,14 +9,11 @@
   margin-bottom: 20px;
 }
 h3{
-  font-size: 20px;
+  font-size: 25px;
   margin: 15px 0;
 }
 /* /typo */
 /* header */
-header{
-  margin-bottom: 30px;
-}
 .header-box{
   text-align: center;
   padding: 5px 20px;
@@ -23,9 +23,7 @@ img{
 }
 /* responsive */
 @media screen and (max-width: 767px){
-  header{
-    margin-bottom: 10px;
-  }
+
   .header-box{
     padding: 15px 30px;
   }
@@ -38,12 +36,16 @@ img{
 
 /* main */
 /* main-how */
-.main-how{
+.main-how, .main-why{
   text-align: center;
   padding-bottom: 15px;
+  margin-top: 30px;
 }
 .grey{
-  background-color: #f9f9f9;
+  background: rgb(235,235,235);
+  background: linear-gradient(90deg, rgba(235,235,235,0.7749474789915967) 0%, rgba(249,249,249,1) 100%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 1px rgba(128, 128, 128, 0.5);
 }
 .main-how-box{
   padding: 10px;
@@ -57,9 +59,28 @@ img{
     margin-bottom: 10px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .main-how-box img, .main-why-box img{
+    height: 150px;
+  }
+}
 /* /responsive */
-
 /* /main-how */
+
 /* main-why */
+.main-why{
+  margin-bottom: 10px;
+}
+.main-why-box{
+  padding: 15px 30px;
+}
+.main-why-box img{
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 15px;
+}
+.main-why-box hr{
+  margin-top: 10px;
+}
 /* /main-why */
 /* /main */
