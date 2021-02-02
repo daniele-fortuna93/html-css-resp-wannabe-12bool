@@ -1,7 +1,8 @@
 /* typo */
 .title{
-  font-size: 32px;
+  font-size: 30px;
   text-align: center;
+  padding-top: 20px;
   margin-bottom: 20px;
 }
 h3{
@@ -11,14 +12,13 @@ h3{
 /* /typo */
 /* header */
 header{
-  padding-top: 20px;
   margin-bottom: 30px;
 }
 .header-box{
   text-align: center;
   padding: 5px 20px;
 }
-.header-box img{
+img{
   height: 200px;
 }
 /* responsive */
@@ -29,6 +29,37 @@ header{
   .header-box{
     padding: 15px 30px;
   }
+  img{
+    height: 150px;
+  }
 }
 /* /responsive */
 /* /header */
+
+/* main */
+/* main-how */
+.main-how{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.grey{
+  background-color: #f9f9f9;
+}
+.main-how-box{
+  padding: 10px;
+}
+/* responsive */
+@media screen and (max-width: 767px){
+  .main-how-box{
+    padding: 15px 30px;
+  }
+  .main-how .title{
+    margin-bottom: 10px;
+  }
+}
+/* /responsive */
+
+/* /main-how */
+/* main-why */
+/* /main-why */
+/* /main */
